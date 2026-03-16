@@ -1,0 +1,44 @@
+chess-backend
+ ┣ .git
+ ┣ .mvn
+ ┃ ┗ wrapper
+ ┃ ┃ ┗ maven-wrapper.properties
+ ┣ src
+ ┃ ┣ main
+ ┃ ┃ ┣ java
+ ┃ ┃ ┃ ┗ com
+ ┃ ┃ ┃ ┃ ┗ javiervidgar
+ ┃ ┃ ┃ ┃ ┃ ┗ chess_backend
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ Application.java
+ ┃ ┃ ┗ resources
+ ┃ ┃ ┃ ┣ static
+ ┃ ┃ ┃ ┣ templates
+ ┃ ┃ ┃ ┗ application.yaml
+ ┃ ┗ test
+ ┃ ┃ ┗ java
+ ┃ ┃ ┃ ┗ com
+ ┃ ┃ ┃ ┃ ┗ javiervidgar
+ ┃ ┃ ┃ ┃ ┃ ┗ chess_backend
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ ApplicationTests.java
+ ┣ target
+ ┃ ┣ classes
+ ┃ ┃ ┣ com
+ ┃ ┃ ┃ ┗ javiervidgar
+ ┃ ┃ ┃ ┃ ┗ chess_backend
+ ┃ ┃ ┃ ┃ ┃ ┗ Application.class
+ ┃ ┃ ┗ application.yaml
+ ┃ ┣ generated-sources
+ ┃ ┃ ┗ annotations
+ ┃ ┣ generated-test-sources
+ ┃ ┃ ┗ test-annotations
+ ┃ ┗ test-classes
+ ┃ ┃ ┗ com
+ ┃ ┃ ┃ ┗ javiervidgar
+ ┃ ┃ ┃ ┃ ┗ chess_backend
+ ┃ ┃ ┃ ┃ ┃ ┗ ApplicationTests.class
+ ┣ .gitattributes
+ ┣ .gitignore
+ ┣ HELP.md
+ ┣ mvnw
+ ┣ mvnw.cmd
+ ┗ pom.xml
