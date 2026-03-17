@@ -38,5 +38,4 @@ public class Game {
   public void finishGame(GameState finalState) {
     this.state = finalState;
   }
-
 }
