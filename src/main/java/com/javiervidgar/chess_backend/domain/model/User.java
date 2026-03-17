@@ -23,5 +23,4 @@ public class User {
   public void updateElo(int newEloRating) {
     this.eloRating = newEloRating;
   }
-
 }
