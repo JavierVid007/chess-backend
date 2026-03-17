@@ -1,5 +1,6 @@
 package com.javiervidgar.chess_backend.domain.engine;
 
+import com.javiervidgar.chess_backend.domain.exception.IllegalMoveException;
 import com.javiervidgar.chess_backend.domain.valueobject.PieceColor;
 
 public class ChessEngine {
@@ -19,7 +20,7 @@ public class ChessEngine {
 
   private void validateMove(Board board, String moveNotation) {
     if (!MoveValidator.isLegalMove(board, moveNotation))
-      throw new IllegalArgumentException("Movimiento ilegal: " + moveNotation);
+      throw new IllegalMoveException("Illegal Move: " + moveNotation);
   }
 
   private EngineResult evaluateGameState(Board board) {
