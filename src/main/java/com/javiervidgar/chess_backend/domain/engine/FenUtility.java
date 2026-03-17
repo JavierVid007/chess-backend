@@ -1,5 +1,6 @@
 package com.javiervidgar.chess_backend.domain.engine;
 
+import com.javiervidgar.chess_backend.domain.exception.InvalidFenException;
 import com.javiervidgar.chess_backend.domain.valueobject.PieceColor;
 
 public class FenUtility {
@@ -21,7 +22,7 @@ public class FenUtility {
 
   private static void validateFenLength(String[] parts) {
     if (parts.length != 6)
-      throw new IllegalArgumentException("String FEN inválido: se esparaban 6 partes");
+      throw new InvalidFenException("Invalid FEN String: Expected 6 parts");
   }
 
   private static void parsePiecePlacement(Board board, String piecePlacement) {
